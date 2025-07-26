@@ -18,7 +18,6 @@ import base64
 # Set appearance mode and default color theme
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
-
 class GlassCryptoApp(ctk.CTk):
     # Define constants for key lengths, salt size, IV size
     SALT_SIZE = 16
